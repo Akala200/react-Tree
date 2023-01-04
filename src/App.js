@@ -66,6 +66,7 @@ const App = () => {
 				</div>
 				<div className="flex-large">
 					<h2>View users</h2>
+					<button className='btn'>Switch To Tree</button>
 					<UserTable users={users} editRow={editRow} deleteUser={deleteUser} />
 				</div>
 			</div>
